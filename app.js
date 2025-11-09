@@ -1,7 +1,9 @@
 const heading = React.createElement(
     "h1",
     {id : "heading" , xyz : "abc"},
-    "Hello World form React Inside it");
+    "Hello World form React Inside it"
+);
+console.log(heading);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
